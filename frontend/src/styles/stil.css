@@ -1,0 +1,146 @@
+.cardCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardShadow{
+    box-shadow: 0px 2px 1px -1pxrgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+    min-height:100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+.marginB{
+    margin: 15% 15%;
+}
+.marginS{
+    margin: 5% 5%;
+}
+.marginForm{
+    margin-top: 2%;
+}
+
+.MuiList-root{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.imgTrProfil{
+    min-width: 100%;
+    height:50%;
+    object-fit:cover;
+}
+/* .profil{
+    background-image: radial-gradient(ellipse, #ffffff, #f8ae0081);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.zelje{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.korisnik{
+    max-width: 100px;
+}
+.scroll{ 
+        height: 100%;
+        overflow-x: auto;
+}
+.graf{
+    background-color: #f1f1f1;
+    margin-bottom: 2%;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+/*PRIKAZ TRENERA*/
+.trImg{
+    min-height:100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+/*POCETNA*/
+
+/* slika pozadina */
+.container{
+	background-image: url(https://assets.sweat.com/shopify_articles/images/010/005/285/original/BackToGymSWEATf1f07a7f6f79e7b8807d2436a6ae8e8b.jpg?1625801362);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.poruka{
+    font-family: monospace;
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: -2px;
+    border: 1px black;
+    background-image: linear-gradient(to bottom left, #f8af00, #f83200);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* text-transform:capitalize; */
+}
+
+.pozadinaPoruka{
+    width: 100%;
+    background-color: #f1f1f18a;
+    padding-bottom: 1%;
+}
+
+/*O NAMA*/
+
+.pozadina {
+    height: 300px;
+    background-image: url(https://www.virginactive.com.au/images/library/Blog/Media/HandsUpYoga_730x411.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.opis {
+    margin: 5vw;
+    gap: 20px;
+}
+
+/*INPUTI*/
+
+.inputCSS {
+    border: 1px solid #f8af00;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px ;
+    margin: 1%;
+}
+
+.inputCSS:disabled{
+    background-color: transparent;
+    border: none;
+    text-align: left;
+}
+.inputCSS:focus {
+    outline: 1px solid #f8af00;
+    font-weight: bold;
+    background-color: transparent;
+}

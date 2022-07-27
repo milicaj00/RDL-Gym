@@ -1,0 +1,78 @@
+.kalendar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+
+
+}
+.dani-u-nedelji {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+
+    /* height: 10vh;
+    width: 50vw; */
+}
+
+.dan {
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+
+    width: 10vh;
+    align-items: center;
+}
+
+.dan:hover {
+    background-color: rgb(199, 212, 226);
+}
+
+.dugmeDatum {
+    border-radius: 0;
+    background-color: inherit;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+}
+
+
+.termin {
+    display: flex;
+    gap: 5px;
+    height: 7vh;
+    align-items: center;
+
+    border-bottom-style: outset;
+    justify-content: space-between;
+}
+
+.btnZakazi {
+    border-radius: 12px;
+    cursor: pointer;
+    border: 10px;
+    margin: 2px;
+}
+
+.btnZakazi:hover {
+    background-color: inherit;
+}
+
+.termini {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.trTermini {
+    display: flex;
+    border-bottom-style: dotted;
+    justify-content: space-between;
+}
+
+/* .nevidljiviSpan{
+    visibility: hidden;
+} */

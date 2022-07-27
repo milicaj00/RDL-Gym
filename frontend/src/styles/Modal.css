@@ -1,0 +1,109 @@
+.modal {
+  /* overflow-y: initial !important; */
+  /* background-color:inherit; */
+
+  /* position: fixed; */
+  max-height: 86vh;
+  overflow-y: auto;
+ 
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(39, 38, 39, 0.25);
+ 
+  animation: slide-down 300ms ease-out forwards;
+  align-items: center;
+  gap: 10px;
+
+  font-size: larger;
+  top: 10vh;
+  margin: 2vh;
+  margin-top: 10vh;
+  /* top: 10vh;
+  padding: 1rem;
+  z-index: 30; */
+
+}
+
+.btnZatvori {
+  top: 5px;
+  float: right;
+}
+
+.btnZatvori:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .modal {
+    width: 40rem;
+    /* left: calc(50% - 20rem); */
+    align-self: center;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.poz {
+  /* display: block !important; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(94, 91, 91, 0.2);
+  align-items: center;
+  display: flex;
+    justify-content: center;
+}
+
+.modal-body {
+  padding: 2vh;
+  top: 10vh;
+  /*display: flex; */
+}
+
+/* .modal{
+  display: block !important; 
+}
+
+
+.modal-dialog{
+  overflow-y: initial !important
+}
+.modal-body{
+  height: 80vh;
+  overflow-y: auto;
+} */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.sveUsluge {
+    align-content: center;
+    margin: 5vh 15vw 25vw 15vw;
+}
+.center{
+    display: flex;
+  justify-content: center;
+  align-items: center
+}
+.usluga {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom-style: outset;
+    justify-content: space-around;
+    height: 7vh;
+}
+.usluga:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.datumi {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom-style: outset;
+    justify-content: space-around;
+}
+.zakazi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cenaUsluge {
+    color: rgb(17, 146, 17);
+}
+
+.greska {
+    color: red;
+}
